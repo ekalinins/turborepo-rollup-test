@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  transpilePackages: ["@repo/my-turbo-test-ui"],
+  transpilePackages: ["my-turbo-test-ui"],
 };
