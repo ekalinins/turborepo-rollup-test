@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { CustomButton, Card, Code } from "@repo/ui";
+import {  Card, Code, CustomButton } from "@repo/my-turbo-test-ui";
 
 function Gradient({
   conic,
