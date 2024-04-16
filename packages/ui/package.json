@@ -1,7 +1,7 @@
 {
   "name": "my-turbo-test-ui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -37,6 +37,7 @@
     "eslint": "^8.57.0",
     "react": "^18.2.0",
     "typescript": "^5.3.3",
-    "ua-parser-js": "1.0.33"
+    "ua-parser-js": "1.0.33",
+    "my-turbo-test-ui-2": "0.2.0"
   }
 }
