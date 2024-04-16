@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "build-packages": "turbo run build --filter=./packages/*",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
@@ -11,7 +12,15 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "prettier": "^3.2.5",
-    "turbo": "latest"
+    "turbo": "latest",
+    "rollup": "3.15.0",
+    "rollup-plugin-delete": "2.0.0",
+    "rollup-plugin-svg-import": "1.6.0",
+    "rollup-plugin-typescript2": "0.34.1",
+    "@rollup/plugin-babel": "5.3.1",
+    "@rollup/plugin-commonjs": "21.1.0",
+    "@rollup/plugin-json": "5.0.2",
+    "@rollup/plugin-node-resolve": "15.0.1"
   },
   "engines": {
     "node": ">=18"
